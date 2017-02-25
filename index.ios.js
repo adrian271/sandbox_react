@@ -3,10 +3,11 @@ import { AppRegistry, Navigator } from 'react-native';
 
 import MyScene from './MyScene';
 
-class SimpleNavigationApp extends Component {
+class sandbox_react extends Component {
   render() {
     return (
       <Navigator
+        style={{marginTop:30}}
         initialRoute={{ title: 'My Initial Scene', index: 0 }}
         renderScene={(route, navigator) =>
           <MyScene
@@ -34,4 +35,4 @@ class SimpleNavigationApp extends Component {
   }
 }
 
-AppRegistry.registerComponent('SimpleNavigationApp', () => SimpleNavigationApp);
+AppRegistry.registerComponent('sandbox_react', () => sandbox_react);
