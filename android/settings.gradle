@@ -1,0 +1,3 @@
+rootProject.name = 'sandbox_react'
+
+include ':app'
